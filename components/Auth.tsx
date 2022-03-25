@@ -5,7 +5,7 @@ import firebase from 'firebase/compat/app';
 
 const uiConfig = {
     signInFlow: 'popup',
-    signInSuccessUrl: '/signedIn',
+    signInSuccessUrl: '/',
     signInOptions: [
       firebase.auth.GithubAuthProvider.PROVIDER_ID,
     ],
